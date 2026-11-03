@@ -5,6 +5,7 @@ let package = Package(
     name: "apple-ads-platform-api-swift",
     platforms: [
         .macOS(.v15),
+        .iOS(.v18),
     ],
     products: [
         .library(name: "AppleAdsClient", targets: ["AppleAdsClient"]),
